@@ -1,0 +1,264 @@
+.inputform {
+  width: 400px;
+}
+
+.expandedinput {
+  margin: 10px 0;
+}
+
+.sidemenu {
+  height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+#sidebar {
+  margin: 0;
+}
+
+#wrapper {
+  margin: 0;
+}
+
+#header {
+  margin: 1em 0;
+}
+
+.sidemenu > div {
+  margin: 2em;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+}
+
+.subtitle {
+  padding: 0 0 2em 0;
+  margin: -1em 0 0.8em 0;
+  border-bottom: 1px solid rgba(210, 215, 217, 0.75);
+  /* border-top: 1px solid rgba(210, 215, 217, 0.75) */
+}
+
+.goodslist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.goodsbox {
+  background-color: #f5f6f7;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 1em 1em 0;
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 1px solid #e6e6e6;
+}
+
+.goodsbox > div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.2em 0;
+}
+
+.goodsbox > div > div {
+  margin: 0.2em 0;
+}
+
+.goodsbox > div input {
+  width: 100%;
+  height: 30px;
+}
+
+.middlebutton {
+  margin: 0 0.5em;
+}
+
+.goodsboximage {
+  background-color: #e7e7e7;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3em;
+}
+
+.plusminus {
+  padding: 0;
+  line-height: 0;
+  width: 110px;
+  height: 30px;
+}
+
+.inline {
+  display: flex;
+}
+
+.adddeletebutton {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmblock {
+  min-width: 350px;
+}
+
+.confirmblock > div {
+  background-color: #f5f6f7;
+  border-radius: 0.5em;
+  border: 1px solid #e6e6e6;
+  padding: 1em;
+  width: 350px;
+  /* right: 3em; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.confirmblock a,
+.confirmblock button {
+  margin: 0.6em 0 0 0;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchfield input {
+  margin: 1em 0;
+  width: 50%;
+  transition: 0.2s;
+}
+
+.searchfield input:focus {
+  width: 40em;
+}
+
+textarea {
+  /* border: 1px solid #ccc; */
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.4em;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: vertical;
+  min-height: 10em;
+  line-height: 20px;
+  margin-bottom: 1em;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sum {
+  width: 60%;
+  min-height: 3em;
+  font-size: xx-large;
+  border-radius: 0.5em;
+  background-color: #e7e7e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.7em;
+}
+
+.admingoodsbox {
+  /* height: 4em; */
+  width: 100%;
+  background-color: #f5f6f7;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 0.5em;
+  display: flex;
+  align-items: flex-start;
+}
+
+.admingoodsbox > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.admingoodsbox > div:nth-child(1) {
+  width: 70%;
+}
+
+.admingoodsbox > div:nth-child(2) {
+  text-align: center;
+}
+
+.admingoodsbox > div:nth-child(2) > * {
+  margin: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 30%; */
+}
+
+.admingoodsbox a,
+button {
+  width: auto;
+}
+
+.fieldpair {
+  display: flex;
+  flex-direction: row;
+}
+
+.fieldpair > div {
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+.fieldpair > div:nth-child(1) {
+  width: 20%;
+  text-align: right;
+  font-weight: 600;
+}
+
+.fieldpair > div:nth-child(2) {
+  width: 80%;
+  background-color: #fff;
+}
+
+.admineditgood > * {
+  margin: 0 0.5em;
+  height: 3em;
+}
+
+.appcomment {
+  width: 20em;
+  min-height: 4em;
+  max-height: 20em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border-radius: 0.5em;
+  background-color: #fff;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.verticalmid {
+  /* margin: 0 auto; */
+  margin: auto;
+}
+
+.applicationpair > div {
+  width: 50%;
+}
+
+.logoandmenu > h4 {
+  margin-top: 0.5em;
+  border-bottom: none;
+}
